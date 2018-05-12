@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>homeapp</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- insert bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- insert Jquery UI -->
+    <link href="https://code.jquery.com/ui/1.12.1/themes/redmond/jquery-ui.css" rel="stylesheet">
+
+    <!-- insert animation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
+
+</head>
+
+
+
+
+
+<body class="basket">
+
+
+
+<nav class="headTop">
+
+    <div class="container-fluid">
+            <ul class="nav navbar-nav  ">
+
+                <li>
+                        <img src="img/cart.png"  id="cartimg" class="basket-icon">
+
+                </li>
+
+                <li>
+                    <img src="img/user-icon.png"  id="userimg" class="user-icon">
+
+                </li>
+
+
+                <li><a href="http://wanglanglin.com/aau/wnm608/617/midterm_webapp/cart_ogin.html" ><img src="img/headphone_logosml.png"  class="logoicon"> </a></li>
+             </ul>
+
+    </div>
+
+</nav>
+
+
+
+
+<div class="container-fluid maincontent">
+
+    <br>
+
+<div class="container text-center topbar">
+    <button id="button1">B&O</button>
+    <button id="button2">Bose</button>
+    <button id="button3">Sony</button>
+</div>
+
+
+
+    <div class="row">
+
+
+
+
+          <!--  <ul>  -->
+                <div class=" col-sm-10 col-md-4">
+              <!--  <li class="change">  -->
+            <img class=" img-fluid center-block" alt="Responsive image"  src="img/bo_blackuse.png"   id="tu1"  >
+
+                    <br>
+
+                    <div class="container purchase ">
+
+                        <button class="ui-button ui-corner-all ui-widget buy addOne center-block add-to-cart" data-name="B&O" data-price="299" > Add to cart </button>
+                    </div>
+                    <!--     </li>  -->
+
+                      </div>
+
+                      <div class=" col-sm-10 col-md-4">
+                          <!--      <li class="change">  -->
+
+                               <br>
+                               <img class=" img-fluid center-block" src="img/bose_1use.png" id="tu2" alt="">
+
+                               <div class="container purchase ">
+                               <button class="ui-button ui-corner-all ui-widget buy addTwo center-block add-to-cart" data-name="Bose"  data-price="199"> Add to cart </button>
+                               </div>
+                          <!--    </li>  -->
+                         </div>
+
+                           <div class=" col-sm-10 col-md-4">
+
+                               <!--   <li class="change">  -->
+
+                               <br>
+                               <img class=" img-fluid  center-block" src="img/sony_newuse.png" id="tu3" alt="">
+                               <div class="container purchase sonybutton">
+                               <button class="ui-button ui-corner-all ui-widget buy addThree center-block add-to-cart" data-name="Sony"  data-price="199"> Add to cart   </button>
+                               </div>
+
+                         <!--  </li>  -->
+                           </div>
+                    <!--   </ul>  -->
+
+                       <br>
+
+           <!-------------  b&O play -------------->
+
+            <div class="container bo">
+
+            <h5 class="text-center" id="boName">B&O e8</h5>
+
+            <p class="text-center" id="boPrice">USD 299</p>
+
+
+            <hr>
+
+                <div class="container info center-block">
+
+                    <div class="left">Describe</div>
+
+                    <div class="right"> <button id="toggleButton1"> v </button></div>
+
+                    <br>
+
+                    <p id="boInfo">TRULY WIRELESS: Enjoy superior sound quality and true cord-free convenience with these elegant
+                        Bluetooth earbuds. The wireless in-ear design delivers hassle-free listening with no strings attached
+                        SOUND & STYLE: These small wireless earphones are packed with the Bang & Olufsen Signature
+                    </p>
+
+                </div>
+
+                <br>
+                <hr>
+                <br>
+
+
+
+                <br>
+
+
+            </div>
+
+
+<!-------------   bose   -------------->
+
+            <div class="container bose">
+
+                <h5 class="text-center" id="boseName">Bose Soundsport 1000</h5>
+
+                <p class="text-center" id="bosePrice">USD 199</p>
+
+
+                <hr>
+
+                <div class="container info center-block">
+
+                    <div class="left">Describe</div>
+
+                   <div class="right"> <button id="toggleButton2"> v </button></div>
+
+                    <br>
+
+                    <p id="boseInfo">Earbuds are sweat and weather resistant (with an IPX4 rating) and come with 3 different
+                        pairs of StayHear+ Sport tips (in sizes S/M/L) that provide a comfortable and secure fit Up to 5 hours
+                        of play time with each charge and an additional 10 hours with the included charging case
+                    </p>
+
+                </div>
+
+                <br>
+              <hr>
+                <br>
+
+                <br>
+
+
+
+            </div>
+
+
+<!------------- sony  -------------->
+
+
+            <div class="container sony">
+
+                <h5 class="text-center" id="sonyName">Sony WF-1000</h5>
+
+                <p class="text-center" id="sonyPrice">USD 198</p>
+
+
+
+
+                <hr>
+
+                <div class="container info center-block">
+
+                    <div class="left">Describe</div>
+
+                    <div class="right"> <button id="toggleButton3"> v </button></div>
+
+                    <br>
+
+                    <p id="sonyInfo">Digital Noise Cancelling lets you listen without distractions.
+                        Sony|Headphones Connect APP for Android /iOS uses Smart Listening technology to control your ambient sound settings .
+                        Smart Listening by Adaptive Sound Control automatically switches to ambient sound mode based on your activity.
+                    </p>
+
+                </div>
+
+                <br>
+                <hr>
+                <br>
+
+
+                <br>
+
+
+            </div>
+
+
+        </div>
+
+
+</div>
+
+
+
+
+
+<!----------------  shopping cart  ------------->
+
+
+<div class="Cart">
+
+    <h3>Shopping Cart</h3>
+
+    <hr>
+
+
+
+  <div>
+      <ul id="show-cart">
+
+        <p> 0 item in the cart </p>
+
+
+      </ul>
+
+      <hr>
+
+      <div class="total">Total Cart: <span id="total-cart">  </span> $</div>
+
+
+</div>
+
+    <div>
+
+        <ul>
+
+            <!--  <li><a class="add-to-cart" href="#" data-name="B&O Play"  data-price="299" > B&O Play $299.99 </a> </li> -->
+            <!--  <li><a class="add-to-cart" href="#" data-name="Bose Sounds Free "  data-price="199" > Bose Sounds Free $199.99 </a> </li> -->
+            <!-- <li><a class="add-to-cart" href="#" data-name="Sony WF-1000"  data-price="199" > Sony WF-1000 $199.99 </a> </li> -->
+
+        </ul>
+
+    </div>
+
+    <hr>
+
+
+
+    <button id="check" class="btn btn-success btn-sm "> Check </button>
+
+    <button id="clear-cart" class="btn btn-danger btn-sm  disabled"> Clear</button>
+
+
+
+
+        <form class="address">
+            <h3>Fill in information </h3>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputPassword4">Password</label>
+                    <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputAddress">Address</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="form-group">
+                <label for="inputAddress2">Address 2</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputCity">City</label>
+                    <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="inputState">State</label>
+                    <select id="inputState" class="form-control">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-2">
+                    <label for="inputZip">Zip</label>
+                    <input type="text" class="form-control" id="inputZip">
+                </div>
+            </div>
+
+            <button id="payment" class="btn btn-success btn-sm "> next </button>
+
+        </form>
+
+
+
+
+
+</div>
+
+
+
+<!----------------  user center  ------------->
+
+<div class="user_card text-center">
+    <img src="img/headimg.png" alt="John" style="width:100%">
+    <h1>Langlin </h1>
+    <p class="title">web design</p>
+    <p>Academy of Art University</p>
+    <a href="#"><i class="fa fa-dribbble"></i></a>
+    <a href="#"><i class="fa fa-twitter"></i></a>
+    <a href="#"><i class="fa fa-linkedin"></i></a>
+    <a href="#"><i class="fa fa-facebook"></i></a>
+<hr>
+
+   <input type="submit" id="signout" class="btn btn-danger " value="Sign Out" onclick="handleSignOut();">
+
+
+
+
+
+
+</div>
+
+
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+
+<script
+      src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+      integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+      crossorigin="anonymous"></script>
+
+<script src="index.js"></script>
+
+<script src="cartsystem.js"></script>
+
+<!------------------------------  link to firebase function -------------------------------------->
+
+
+
+<script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+<script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyCYTVMxkY_8BteArgzji82fdcWGGKa3G3M",
+        authDomain: "headphone-product.firebaseapp.com",
+        databaseURL: "https://headphone-product.firebaseio.com",
+        projectId: "headphone-product",
+        storageBucket: "headphone-product.appspot.com",
+        messagingSenderId: "699660726942"
+    };
+    firebase.initializeApp(config);
+</script>
+
+<script src="auth.js"></script> <!-- 该 链接 代码必须放在 firebase 代码 后门， 否则系统不知道 firebase 是啥 -->
+
+
+
+
+
+
+
+</body>
+</html>

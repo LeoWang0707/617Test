@@ -1,0 +1,869 @@
+
+
+
+/*@media only screen and (min-width: 768px) and (min-width: 1200px)  {
+
+}
+
+*/
+
+
+
+/*              medium device                */
+
+@media (min-width:768px){
+
+
+    /*   #signup, #signin, #submit,  #signout, #fblogin, #googlelogin{
+
+      float: left;  */
+
+
+    #button1, #button2, #button3{
+
+        display: none;
+    }
+
+    .logoicon{
+
+   padding: 10px;
+
+        margin-top: -75px;
+        width:70px ;
+        height: auto;
+
+    }
+
+    .basket-icon{
+        margin-top: 7px;
+        width:50px;
+        height: auto;
+        padding: 10px;
+    }
+
+    .user-icon{
+
+        float: right;
+        margin-top: -50px;
+        margin-right: 45px;
+
+        width: 50px;
+        height: auto;
+        padding: 10px;
+
+    }
+
+    .user_card{
+
+        padding: 20px;
+
+
+    }
+
+    .logo img{
+
+        margin-top:100px;
+
+        margin-bottom: 50px;
+    }
+
+   .row{
+
+       justify-content: space-between;
+
+   }
+
+      input{
+
+          height: 5vh;
+
+          margin-top: 30px;
+         /* width:12vw; */
+
+
+    }
+
+  /*    .change{
+
+          display: block;
+
+      }
+
+*/
+
+
+      #signout{
+
+          margin-top: 50px;
+      }
+
+    .center-block {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+    .bo, .bose, .sony{
+
+        width: 30%;
+
+
+    }
+
+  /*  #sonyName, #sonyPrice{
+
+        margin-top: 20px;
+    }
+
+*/
+    .container h5{
+
+
+        margin-top:50px;
+    }
+
+
+    #tu1, #tu2, #tu3{
+
+        margin-top:4vh;
+
+    }
+
+.Cart{
+
+    width: 40%;
+
+}
+
+
+#signupform{
+
+    margin-top:40px;
+}
+
+
+    .login{
+
+        background-color:#4565a0;
+
+        padding-top: 40px;
+
+        padding-bottom:80px;
+
+        padding-left: 20px;
+
+        padding-right: 20px;
+
+    }
+
+.other img{
+
+    width: 50%;
+
+    height: auto;
+}
+
+
+#fblogin{
+
+    float: left;
+
+    margin-top: 53px;
+}
+
+#googlelogin{
+
+    float: left;
+
+    margin-top: 56px;
+}
+
+
+ #inlogin{
+
+        float: left;
+
+        margin-top: 18px;
+    }
+
+
+ #twitterlogin{
+
+     float: left;
+
+     margin-top: 18px;
+ }
+
+
+    #signup{
+
+        width: 120px;
+        margin-top: 70px;
+
+    }
+
+     #signin{
+
+        width: 120px;
+
+        margin-bottom: 20px;
+
+        margin-top: 50px;
+    }
+
+
+    #boseInfo, #boInfo, #sonyInfo{
+
+        border: 1px black solid;
+        border-radius: 10px;
+
+    }
+
+
+
+}
+
+
+/* ----------------------            big device              -------------------------  */
+
+@media (min-width:1200px){
+
+    #signup, #signin{
+
+        width: 240px;
+
+        margin-bottom: 20px;
+    }
+
+    #signup{
+
+        margin-top: 70px;
+
+    }
+
+    #signin{
+
+        margin-top: 30px;
+    }
+
+
+    .other img{
+
+        width:24%;
+
+        margin-right: 25px;
+
+        margin-left: 20px;
+        height: auto;
+    }
+
+
+
+    #fblogin{
+
+        float: left;
+
+        margin-top: 59px;
+    }
+
+    #googlelogin{
+
+        float: left;
+
+        margin-top: 62px;
+    }
+
+
+    #inlogin{
+
+        float: left;
+
+        margin-top: 30px;
+    }
+
+
+    #twitterlogin{
+
+        float: left;
+
+        margin-top: 30px;
+    }
+
+
+}
+
+
+
+
+
+
+/* ----------------------            small device              -------------------------  */
+
+@media (max-width:767px){
+
+
+    .logoicon{
+
+        display: inline;
+        float: left;
+        padding: 10px;
+
+        margin-top: -50px;
+        width:70px;
+        height: auto;
+
+
+
+    }
+
+    .basket-icon{
+
+
+        margin-top: 8px;
+        width: 50px;
+        height: auto;
+        padding: 10px;
+    }
+
+
+    .user-icon{
+
+        float: right;
+        margin-top: -50px;
+        margin-right: 45px;
+
+        width: 50px;
+        height: auto;
+        padding: 10px;
+
+    }
+
+
+    #signupform{
+
+        margin-top: 30px;
+
+    }
+
+
+    .logo img{
+
+        margin-top:40px;
+
+        margin-bottom: 15px;
+    }
+
+    input{
+
+                                /*   width:   80% ;!important  */
+      height:40px;
+      margin-top: 2vh;
+      margin-right: 2vw;
+
+      padding: 20px;
+
+        width:22vw;
+
+        font-size: 100%;
+
+     }
+
+    #signup{
+
+        float: left;
+
+        margin-left: 18px;
+
+        width: 120px;
+
+
+
+    }
+
+
+  #signin{
+
+      float: right;
+
+      margin-right: 18px;
+
+      width: 120px;
+
+  }
+
+
+    #signout{
+
+        margin-bottom:25px;
+    }
+
+
+    #fblogin, #googlelogin{
+
+       width: 15%; height: auto;
+
+       margin-top: 20px;
+
+       margin-left: 20px;
+
+    }
+
+    #googlelogin{
+
+        margin-top: 26px;
+
+    }
+
+
+    #inlogin, #twitterlogin{
+
+        width: 15%; height: auto;
+        float: right;
+        margin-top: 26px;
+
+        margin-right: 20px;
+
+    }
+
+    #boseInfo, #boInfo, #sonyInfo{
+
+        display: none;
+
+    }
+
+    .bose, .sony, #tu2, #tu3{
+
+        display: none;
+    }
+
+    .addOne{
+
+        display: block;
+    }
+
+
+
+    .addTwo, .addThree{
+
+        display: none;
+    }
+
+
+    .purchase button{
+
+      margin: 0 auto;
+
+
+    }
+
+    .bo, .bose, .sony {
+
+        border: 1px solid black;
+
+        border-radius: 10px;
+
+        background: rgba(127, 175, 238, 0.5);
+
+        margin-left: 20px;
+        margin-right: 20px;
+
+
+    }
+
+    .container h5{
+
+        margin-top: 20px;
+    }
+
+
+    #tu2{
+
+        margin-top: -40px;
+
+    }
+
+
+
+    #tu3{
+
+        margin-top: -70px;
+    }
+
+    .sonybutton{
+
+        margin-top: -20px;
+    }
+
+
+    .bo{
+
+        margin-top: -20px;
+    }
+
+ .sony{
+
+     margin-top: 20px;
+ }
+
+    .Cart{
+
+        width: 100%;
+
+    }
+
+    .user_card{
+
+        background-color: transparent;
+        width: 100%;
+    }
+
+
+
+
+
+    .login{
+
+        background-color:#4565a0;
+
+        padding-top: 20px;
+
+        padding-bottom:80px;
+
+        padding-left: 20px;
+
+        padding-right: 20px;
+
+    }
+
+}
+
+
+
+
+
+ /* -------------      --------------*/
+
+a{
+    color: white;
+}
+
+@media (min-width:1px){
+
+
+ /*  #cartimg{
+
+  float: right;
+       margin-top: 2vh;
+
+    }
+    */
+
+}
+
+
+@media (max-width:468px){
+
+
+    .navbar-brand{
+
+border-bottom: 1px solid black;
+
+    }
+
+}
+
+.maincontent{
+    background-color:#88a6d0;
+    width: 100%;
+
+    padding-bottom: 50px;
+}
+
+
+.headTop{
+
+    height: 60px;
+}
+
+
+
+
+
+
+
+/*.topbar button{
+
+    width: 40px;
+    height: 20px;
+}
+
+*/
+
+
+ul li{
+
+    list-style: none;
+}
+
+.tooltip-wrap {
+    position: relative;
+}
+
+.tooltip-wrap .tooltip-content {
+    display: none;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    right: 5%;
+    background-color: #fff;
+    padding: .5em;
+}
+.tooltip-wrap:hover .tooltip-content {
+    display: block;
+}
+
+
+
+
+
+
+
+.col-md-4 ul{
+
+    padding-left: 0;
+    margin-right: 0;
+
+}
+
+
+
+
+
+
+.info{
+
+    margin-top: 40px;
+
+}
+
+.info p {
+
+
+    color: #222222;
+
+}
+
+
+
+.left{
+
+    float: left;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.right{
+
+    float: right;
+}
+
+
+
+
+button{
+    display: block;
+}
+
+
+
+
+
+
+
+.zoom{
+
+    position: absolute;
+    top:-1.5vh;
+    right: 50%;
+    width: 40px;
+    opacity: 0;
+    animation: zoom 1s ease forwards;
+}
+
+@keyframes zoom {
+
+    0%{opacity: 0}
+
+    50%{opacity: 1}
+
+    100%{opacity: 0; right: 20px;}
+
+
+
+}
+
+.basket-icon{
+
+ float: right;
+
+ /* margin-top: 2vh; */
+
+
+
+}
+
+
+.user_icon{
+
+
+
+}
+
+
+
+.Cart{
+
+    display: none;
+    position: absolute;
+    right:0;
+    top:60px;
+
+    z-index: 90;
+
+    background-color: #f1d07e;
+
+}
+
+.Cart h3{
+
+    padding: 20px;
+}
+
+
+
+.user_card{
+
+    display: none;
+    position: absolute;
+    right:0;
+    top:60px;
+    z-index: 90;
+    background-color: #d0e5f5;
+}
+
+
+
+
+h5{
+
+    font-family: 'Abril Fatface', cursive;
+
+}
+
+p{
+
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#boInfo, #boseInfo, #sonyInfo{
+
+
+    margin-top: 20px;
+
+    padding: 10px;
+
+    text-align: left;
+}
+
+
+
+
+.total{
+
+    padding-left: 20px;
+}
+
+#total-cart{
+
+    font-weight: bold;
+}
+
+
+#show-cart li {
+
+    margin-top: 20px;  /* 很重要， 用于设置 cart 中 li 的 高度， 高度不够 元素 会 换行！！！  */
+
+}
+
+.plus-item, .subtract-item, .delete-item{
+
+    margin-right: 1vw;
+
+    float: right;
+
+
+}
+
+
+#check, #clear-cart{
+
+    float: left;
+
+    margin-left:20px;
+
+    margin-bottom: 20px;
+}
+
+
+.address{
+
+ display: none;
+
+ float: left;
+
+ margin-top: 30px;
+
+ border-top: 1px solid black;
+
+}
+
+
+
+label{
+
+    margin-left: 15px;
+}
+
+
+div[data-name="B&O Play"]{
+    color: green;
+}
+
+#payment{
+
+    margin-left: 20px;
+
+    margin-bottom: 15px;
+}
+
+.form-control{
+
+    width: 90% !important;
+
+    margin: auto;
+}
+
+.tip{
+    width: 100%;
+    color: white;
+    border-top: 1px solid black;
+    font-size: 0.5em;
+
+    padding-top: 10px;
+    margin-top: 20px;
+
+
+}

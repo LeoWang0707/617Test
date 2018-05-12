@@ -1,0 +1,68 @@
+
+
+header:after{
+
+    display: block;
+    content: "";
+    clear:both;
+}
+
+.basket ul{
+
+    padding: 0;
+    margin-top: 40px;
+}
+
+.basket li{
+
+    display: inline-block;;
+    list-style: none;
+    width: 30%;
+    margin: 30px 1.5%;
+    text-align: center;
+
+}
+
+.basket button{
+
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.basket header div{
+
+    float: right;
+    position: relative;
+    z-index: 1;
+
+}
+
+.basket header li{
+
+    float: left;
+}
+
+
+
+.zoom{
+
+    position: absolute;
+    top:10px;
+    right: 50%;
+    width: 40px;
+    opacity: 0;
+    animation: zoom 1s ease forwards;
+}
+
+@keyframes zoom {
+
+    0%{opacity: 0}
+
+    50%{opacity: 1}
+
+    100%{opacity: 0; right: 20px;}
+
+
+    
+}

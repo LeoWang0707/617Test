@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jquery UI: making js more easier;</title>
+
+    <link href="https://code.jquery.com/ui/1.12.1/themes/redmond/jquery-ui.css" rel="stylesheet">
+
+    <!--   <link rel="stylesheet" href="img/themes/redmond/jquery-ui.css">  下载到本地到话， jquery css 与 jquery js 必须都下载  -->
+
+
+</head>
+<body>
+
+<h1> Jquery Ui Widgets </h1> <!--use jquery slider, although there is also bootstrap slider -->
+
+
+<div class="ui-widget"> <!--use jquery ui to make search, also add search suggestions -->
+
+    <label for="autocomplete-1">
+
+        Type to Search:
+
+    </label>
+
+    <input id="autocomplete-1">
+
+
+</div>
+
+
+<br><br>
+
+
+
+
+
+
+<ul id="menu-1" style="margin-right:120px"> <!--use jquery ui to make sub menu -->
+
+    <li> <a href="#" > File </a></li>
+    <li> <a href="#" > Edit </a></li>
+    <li> <a href="#" > Save </a>
+
+
+
+<ul>
+ <li> <a href=""> Save as PDF </a></li>
+
+  <li> <a href=""> Save as XLS</a></li>
+
+   <li> <a href=""> Save as CSV </a></li>
+
+</ul>
+    </li>
+
+    <li><a href="#" >Help </a></li>
+
+</ul>
+
+<br><br>
+
+
+
+
+<button id="launcher">Leave Feedback </button>
+<div id="dialog-1" title="Rate my App">
+
+
+    Tihs isin knkl nklsnlkfkkfe
+
+</div>
+
+<br><br>
+
+<div id="slider1">
+</div>
+
+<br><br>
+
+<p>Enter Date:<input type="text"  id="datepicker1">    </p> <!--this jquery ui that bootstrap doesn't have. use in your midterm -->
+
+<br><br>
+
+<!-- jquery ui buttons, compare with bootstrap buttons -->
+
+<!-- method 1. just add id to button, add do js, can change html button to jquery button -->
+
+<button id="button1">Sample Button  </button>
+
+<!-- method 2, just add id to button, add do js, can change html button to jquery button -->
+
+<input type="submit" value="Sample Button2" id="button2">
+
+<!-- method 3, -->
+<a href="https://google.com" id="button3">My button</a>
+
+
+<!-- method4,  html another method to make button -->
+<input type="checkbox" id="button4">
+<label for="button4">Toggle Button</label>
+
+
+<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+
+
+<script
+        src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+        integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+        crossorigin="anonymous"></script>
+
+<script src="onclass.js"></script>
+
+</body>
+</html>
